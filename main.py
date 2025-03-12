@@ -6,7 +6,7 @@ from agno.models.openai.like import OpenAILike
 from agents import EvalAgent, ErrorCheckingAgent, DetectErrrorAgent, InferReasonAgent, RefinePromptAgent, AugmentAgent, SelectionAgent
 from opt.utils import extract_item_json_list, ndcg, extract_wrapped_json
 
-load_dotenv('D://9_Lab//1_Recommendation_Sys//PO4ISR_demo//MA-PO4ISR//.env')
+load_dotenv('your_path.env')
 DEEPINFRA_API_KEY = os.getenv('DEEPINFRA_API_KEY')
 
 llm_model = OpenAILike(
@@ -15,7 +15,7 @@ llm_model = OpenAILike(
     base_url="https://api.deepinfra.com/v1/openai",
 )
 
-data_path = "D://9_Lab//1_Recommendation_Sys//PO4ISR_demo//MA-PO4ISR//dataset//"
+data_path = "./dataset/"
 train_file = f"{data_path}train_150s_processed.json"
 val_file = f"{data_path}valid_98s_processed.json"
 
