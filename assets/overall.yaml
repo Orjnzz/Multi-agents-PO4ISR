@@ -1,4 +1,4 @@
-  data_path: 'D:/9_Lab/1_Recommendation_Sys/PO4ISR_demo/Dataset/'
+  data_path: 'your_data_path'
   dataset: 'bundle'
   search_depth: 1
   train_num: 50
@@ -22,7 +22,7 @@
 
   #Wandb parameter
   use_wandb: True
-  wandb_api_key: 'c3fc75be9d50df460bbe78611fc7f2e8ead4d483'
+  wandb_api_key: 'your_wandb_api'
 
   
 
