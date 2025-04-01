@@ -1,6 +1,6 @@
   data_path: 'your_data_path'
   dataset: 'bundle'
-  search_depth: 1
+  search_depth: 2
   train_num: 50
 
   #Expand parameterwo
